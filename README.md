@@ -1,11 +1,11 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:       </h3>
-<h3>Register Number:           </h3>
+<h3>Name: JAYASREE R</h3>
+<h3>Register Number: 212223230087</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-// A* Search Algorithm
+A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -22,9 +22,9 @@
    
     d) for each successor
         
-        i) if successor is the goal, stop search
+    i) if successor is the goal, stop search
         
-        ii) else, compute both g and h for successor
+    ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
           successor.h = distance from goal to 
@@ -33,13 +33,13 @@
           Manhattan, Diagonal and Euclidean 
           Heuristics)
           
-          successor.f = successor.g + successor.h
+    successor.f = successor.g + successor.h
 
-        iii) if a node with the same position as 
+    iii) if a node with the same position as 
             successor is in the OPEN list which has a 
            lower f than successor, skip this successor
 
-        iV) if a node with the same position as 
+    iV) if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
@@ -164,6 +164,7 @@ J 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
+
 ![alt text](image.png)
 
 <hr>
