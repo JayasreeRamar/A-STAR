@@ -197,7 +197,5 @@ Path found: ['A', 'E', 'D', 'G']
 
 ![alt text](image-2.png)
 
-<hr>
-<hr>RESULT: </h2>
-<hr>
+<H3>RESULT:</H3>
 Thus a graph was constructed and implemantation of A star Search for the same graph was done successfully.
